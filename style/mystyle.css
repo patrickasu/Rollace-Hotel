@@ -1,0 +1,1321 @@
+*{
+	margin: 0 auto;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html, body 
+{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.main-content{
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.container{
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	-webkit-box-shadow: 5px -4px 23px 40px rgba(0,0,0,0.75);
+	-moz-box-shadow: 5px -4px 23px 40px rgba(0,0,0,0.75);
+	box-shadow: 5px -4px 23px 40px rgba(0,0,0,0.75);
+}
+
+.icons-menu{
+	display: inline-block;
+	text-decoration: none;
+}
+
+.icon-image{
+	width: 70px;
+	height: 60px;
+	margin-right: 5px;
+	background-size: cover;
+	background-position: center;
+}
+
+.icons-menu li{
+	display: inline-block;
+	color: #bf0662;
+	font-size: 15px;
+}
+
+.icons-text{
+	font-size: 15px;
+	padding: 20px 200px 0px 10px;
+	margin-left: 0px;
+	color: #bf0662;
+	font-family: 'Tangerine', cursive;
+}
+
+.hotel-header{
+	margin-left: 10px;
+	margin-right: 150px;
+	font-size: 25px;
+	color: #bf0662;
+	font-family: 'Tangerine', cursive;
+}
+
+.navigation{
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	border-top: 1px solid #bf0662;
+	text-align: center;
+	align-items: center;
+}
+
+.navigation-menu li{
+	display: inline-block;
+	font-family: 'Oswail', sans-serif;
+	text-decoration: none;
+	padding: 20px 20px 30px 0px;
+	color: #f0f0f0;
+	font-size: 15px;
+}
+
+.navigation-link{
+	text-decoration: none;
+	color: #bf0662;
+	font-size: 15px;
+}
+
+.navigation-link.active{
+	color: #f0f0f0;
+	background-color: #91018c;
+	padding: 5px 10px;
+}
+
+.fa-shopping-cart{
+	color: #bf0662;
+}
+
+.img-area,
+.image-slideshow,
+.slide-img{
+	width: 100%;
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.test-section{
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+	width: 100%;
+	height: 460px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.test-h2{
+	color: #fff;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	font-size: 18px;
+	font-family: 'Oswail', sans-serif;
+	letter-spacing: 2px;
+}
+
+.test-img{
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+}
+
+.slide-img{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	align-content: center;
+	align-items: center;
+	height: 550px;
+    text-align: center;
+    background-size: cover;
+}
+
+.slider-text{
+	position: absolute;  
+    top: 25%;
+    left:25%;
+    font-size: 40px; 
+}
+
+.slider-text h1{
+	color: #ff9c23; 
+	font-size: 25px;
+	font-family: 'Rochester', cursive;
+	margin-bottom: 20px;
+}
+
+.slider-text h2{
+	color: #fff;
+	font-size: 35px;
+	font-family: 'Oswail', cursive;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 25px;
+}
+
+.slider-text p{
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Oswail', cursive;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+}
+
+.booking-btn{
+	background-color: #bf0662;
+	color: #fff;
+	padding: 10px 5px;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.booking-btn:hover{
+	cursor: pointer; 
+}
+
+.welcome-row{
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('https://cdn.pixabay.com/photo/2016/12/23/18/28/singapore-1927720_960_720.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 480px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: wrap;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+.welcome-text{
+	font-size: 30px;
+	padding-top: 150px;
+	font-family: 'Yatra One', cursive;
+	padding-left: 150px;
+	padding-bottom: 10px;
+}
+
+.welcome-col h2{
+	font-size: 40px;
+	font-family: 'Oswail', sans-serif;
+	padding-bottom: 30px;
+}
+
+.welcome-btn{
+  font-family: "Arial";
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #fff;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  margin-left: 150px;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 20px;
+  background-clip: padding-box;
+  font-size: 1em;
+  padding: .1em 1.5em;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  background-color: #3f6fa0;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  zoom: 1;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+}
+
+.welcome-btn:hover {
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  background-color: #62bf06;
+  color: #ffffff;
+}
+.welcome-btn:focus {
+  outline: none;
+}
+
+.explore-row{
+	text-align: center;
+}
+
+.explore-row p{
+	color: #bf0662;
+	font-size: 23px;
+	font-family: 'Oswail', sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.explore-row h2{
+	color: #232323;
+	font-size: 35px;
+	font-weight: bold;
+	font-family: 'Oswail', sans-serif;
+	letter-spacing: 1px;
+}
+
+.explore-col{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.explore-image-1,
+.explore-image-2,
+.explore-image-3{
+	width: 280px;
+	height: 500px;
+	background-image: linear-gradient(to right top, #6b7dd1, #8e7dce, #aa7dc9, #c17ec2, #d480b9, #ea81a9, #f88696, #ff8f82, #ffa35f, #edc040, #bddf41, #5ffb73);
+	border: 1px solid #62bf06;
+	margin-right: 40px;
+	transition: all 0.3s ease-in-out;
+}
+
+.explore-overlay-img-1{
+	background-image: url('https://i.ytimg.com/vi/IFdoRTvnBwU/maxresdefault.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 250px;
+	height: 270px;
+}
+
+.explore-overlay-img-2{
+	background-image: url('https://cdn.pixabay.com/photo/2016/01/18/09/21/conference-room-1146244_960_720.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 250px;
+	height: 270px;
+}
+
+.explore-overlay-img-3{
+	background-image: url('https://i1.wp.com/www.keypersonofinfluence.com/wp/wp-content/uploads/2015/05/entrevo-keypersonofinfluence-exercises-in-the-gym.jpg?fit=848%2C566');
+	background-size: cover;
+	background-position: center;
+	width: 250px;
+	height: 270px;
+}
+
+.explore-overlay{
+	position: relative;
+	top: 40px;
+	left: 50px;
+}
+
+.overlay-text{
+	padding-top: 80px;
+	color: #232323;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Oswail', sans-serif;
+	font-weight: bold;
+}
+
+.wellness{
+	font-size: 15px;
+	color: #232323;
+	margin-top: 13px;
+	padding: 10px 70px 0px 70px;
+	margin-bottom: 20px;
+}
+
+.explore-link{
+	text-decoration: none;
+	color: #bf0662;
+	font-size: 23px;
+	font-family: 'Oswail', sans-serif;
+	letter-spacing: 1px;
+	transition: all 0.3s ease-in-out;
+}
+
+.explore-link:hover{
+	cursor: pointer;
+	color: #62bf06;
+	transition: all 0.3s ease-in-out;
+}
+
+.services-row{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: left;
+	width: 100%;
+}
+
+.services-section{
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('https://images.unsplash.com/photo-1533229613598-751dc97ec35f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 400px;
+	padding-top: 50px;
+	margin-bottom: 30px;
+}
+
+.fa-coins,
+.fa-calendar-alt,
+.fa-key,
+.fa-wifi,
+.fa-address-card,
+.fa-window-close{
+	color: #bf0662;
+}
+
+.service-text{
+	text-align: center;
+	color: #bf0662;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Rochester', cursive;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+
+.service-header{
+	text-align: center;
+	color: #f0f0f0;
+	font-size: 25px;
+	font-weight: 900;
+	font-family: 'Oswail', sans-serif;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+}
+
+.my-services-header{
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Oswail', sans-serif;
+	font-weight: bolder;
+}
+
+.services-col{
+	padding: 20px;	
+}
+
+.services-col p{
+	color: #f0f0f0;
+	font-size: 15px;
+}
+
+.rooms-row{
+	display: inline-block;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 13px;
+}
+
+.my-events-image{
+	width: 293px;
+	height: 250px;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.3s ease-in-out;
+	margin-left: 5px;
+}
+
+.my-events-image:hover{
+	transform: scale(1.05); 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.room-name{
+	color: #232323;
+	font-family: 'Oswail', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.room-description{
+	color: #232323;
+	font-family: 'Oswail', sans-serif;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.view-details{
+  font-family: "Arial";
+  display: inline-block;
+  text-decoration: none;
+  border: 1px solid #62bf06;
+  height: 36px;
+  line-height: 36px;
+  color: #62bf06;
+  -webkit-border-radius: 5px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 5px;
+  -moz-background-clip: padding;
+  border-radius: 20px;
+  background-clip: padding-box;
+  font-size: 12px;
+  padding: 2px 5px;
+  margin-top: 15px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  background-color: #fff;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  zoom: 1;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+}
+
+.view-details:hover {
+  -webkit-transition: 0.2s ease;
+  -moz-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+  background-color: #bf0662;
+  color: #ffffff;
+}
+
+.testimonial-section{
+	background-color: #62bf06;
+}
+
+.testimonial-h2{
+	text-align: center;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding-top: 20px;
+	font-family: 'Rochester', cursive;
+	font-weight: bolder;
+	color: #fff;
+
+}
+
+.testimonial-p{
+	text-align: center;
+	font-family: 'Rochester', cursive;
+	color: #fff;
+	font-size: 25px;
+	padding-top: 5px;
+	margin-bottom: 20px;
+}
+
+.testimonial-row{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.testimonial-image1,
+.testimonial-image2,
+.testimonial-image3{
+	background-size: cover;
+	background-position: center;
+	width: 210px;
+	height: 250px;
+	display: block;
+	overflow: hidden;
+	border-radius: 80%;
+	margin: 0 auto;
+	transition: all 0.3s ease-in-out;	
+}
+
+.testimonial-image1:hover,
+.testimonial-image2:hover,
+.testimonial-image3:hover{
+	transform: scale(1.05); 
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;	
+}
+
+.testimonial-image1{
+	background-image: url('https://ichef.bbci.co.uk/images/ic/640x360/p074mmrq.jpg');
+	
+}
+
+.testimonial-image2{
+	background-image: url('https://dzyr.files.wordpress.com/2015/06/black-businessman-thinking.jpg');
+}
+
+.testimonial-image3{
+	background-image: url('https://a9p9n2x2.stackpathcdn.com/wp-content/blogs.dir/1/files/2018/10/Michel-Sproles-Bio-3-e1540993572479-767x675.jpg');
+}
+
+.testimonial-col{
+	background-color: #fff;
+	border-radius: 100px 0px 100px 0px;
+}
+
+.my-testimonial-col{
+	width: 270px;
+	background-color: #fff;
+	text-align: center;
+	padding: 10px;
+	border-radius: 100px 0px 100px 0px;
+}
+
+.my-testimonial-col h1,
+.my-testimonial-col h2{
+	text-transform: uppercase;
+	color: #bf0662;
+	font-size: 20px;
+	font-family: 'Oswail', sans-serif;
+	letter-spacing: 1px;
+}
+
+.my-testimonial-col h2{
+	font-size: 15px;
+	padding: 10px 0px 10px 0px;
+	color: #232323;
+}
+
+.my-testimonial-col p{
+	font-size: 15px;
+	padding: 10px 0px 10px 0px;
+	color: #232323;
+}
+
+.fa-star{
+	color: #bf0662;
+	padding-bottom: 10px;
+}
+
+hr.hr-style {
+  border-top: 1px solid #bf0662;
+}
+
+.footer-row{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	background-color: #62bf06;
+	padding-top: 70px;
+}
+
+.footer-col h1{
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Oswail', sans-serif;
+	padding-bottom: 30px;
+}
+
+.footer-col span{
+	color: #f0f0f0;
+}
+
+.footer-text{
+	color: #000;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	margin-bottom: 10px;
+}
+
+.col-p{
+	color: #000;
+	font-family: 'Oswail', sans-serif;
+	margin-bottom: 10px;
+}
+
+.copy-right{
+	padding-top: 30px;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	background-color: #62bf06;
+	border-top: 1px solid #fff;
+}
+
+.copy-right p{
+	color: #fff;
+}
+
+.roomlist-row{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.my-roomlist-col{
+	padding: 0px 20px 20px 20px;
+}
+
+.my-roomlist-col h1{
+	text-align: center;
+	font-family: 'Oswail', sans-serif;
+	font-size: 30px;
+}
+
+.roomlist-col h1{
+	font-size: 35px;
+	text-align: center;
+	color: #232323;
+	font-family: 'Oswail', sans-serif;
+	padding-bottom: 10px;
+}
+
+.classic-room,
+.classic-room-2,
+.classic-room-3,
+.classic-room-4,
+.classic-room-5,
+.classic-room-6{
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+}
+
+.classic-room{
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://cdn.pixabay.com/photo/2017/01/14/12/48/hotel-1979406_960_720.jpg');
+margin-bottom: 30px;
+}
+
+.classic-room-2{
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://cdn.pixabay.com/photo/2015/01/16/08/54/motel-601218_960_720.jpg');
+margin-bottom: 30px;
+}
+
+.classic-room-3{
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://cdn.pixabay.com/photo/2015/12/05/23/22/bedroom-1078890_960_720.jpg');
+margin-bottom: 30px;
+}
+
+.classic-room-4{
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://cdn.pixabay.com/photo/2014/10/16/08/39/bedroom-490779__340.jpg');
+margin-bottom: 30px;
+}
+
+.classic-room-5{
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://cdn.pixabay.com/photo/2014/08/11/21/40/bedroom-416063_960_720.jpg');
+margin-bottom: 30px;
+}
+
+.classic-room-6{
+background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://cdn.pixabay.com/photo/2014/08/11/21/31/wall-panel-416041_960_720.jpg');
+margin-bottom: 30px;
+}
+
+.classic-room h2,
+.classic-room-2 h2,
+.classic-room-3 h2,
+.classic-room-4 h2,
+.classic-room-5 h2,
+.classic-room-6 h2{
+	color: #f0f0f0;
+	padding: 10px 30px 0px 30px;
+	font-size: 35px;
+	font-weight: 900;
+	font-family: 'Oswail', sans-serif;
+	padding-top: 30px;
+}
+
+.classic-room p,
+.classic-room-2 p,
+.classic-room-3 p,
+.classic-room-4 p,
+.classic-room-5 p,
+.classic-room-6 p{
+	color: #fff;
+	padding: 20px;
+	font-family: 'Oswail', sans-serif;
+}
+
+.wellness-row{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+.welness-section h2,
+.welness-section h3,
+.welness-section h4,
+.welness-section h5{
+	text-align: center;
+	font-family: 'Oswail', sans-serif;
+	margin-bottom: 20px;
+	font-size: 35px;
+    color: #232323;
+    font-family: 'Oswail', sans-serif;
+}
+
+.wellness-image,
+.restaurant-image,
+.specialoffer-image,
+.about-image{
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	height: 380px;
+}
+.wellness-image{
+	background-image: url('https://cdn.pixabay.com/photo/2015/07/28/21/02/woman-865021_960_720.jpg');
+}
+
+.restaurant-image{
+	background-image: url('https://cdn.pixabay.com/photo/2018/08/10/21/52/restaurant-3597677_960_720.jpg');
+}
+
+.specialoffer-image{
+	background-image: url('https://cdn.pixabay.com/photo/2017/04/25/20/18/sport-2260736_960_720.jpg');
+}
+
+.about-image{
+	background-image: url('https://cdn.pixabay.com/photo/2018/09/04/02/13/pool-bar-3652849_960_720.jpg');
+}
+
+.wellness-col{
+	width: 50%;
+	background-color: #bf9106;
+	padding: 50px;
+	color: #232323;
+	font-family: 'Oswail', sans-serif;
+}
+
+.myservices-image1,
+.myservices-image2,
+.myservices-image3,
+.myservices-image4,
+.myservices-image5,
+.myservices-image6{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-background-size: cover; 
+	background-size: cover;
+	background-position: center;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+.myservices-image1{
+	background-image: url('https://rollacehotels.com/wp-content/uploads/2019/05/rollacehotel-rooms00099-800x800.jpg');
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.myservices-image2{
+	background-image: url('https://rollacehotels.com/wp-content/uploads/2019/05/rollacehotel-rooms00052-800x800.jpg');
+	margin-right: 20px;
+}
+
+.myservices-image3{
+	background-image: url('https://rollacehotels.com/wp-content/uploads/2019/05/rollacehotel-rooms00102-800x800.jpg');
+}
+
+.myservices-image4{
+	background-image: url('https://rollacehotels.com/wp-content/uploads/2019/05/rollacehotel-rooms00096-800x800.jpg');
+	margin-right: 20px;
+	margin-left: 10px;
+}
+
+.myservices-image5{
+	background-image: url('https://rollacehotels.com/wp-content/uploads/2019/05/rollacehotel-rooms00093-800x800.jpg');
+	margin-right: 20px;
+}
+
+.myservices-image6{
+	background-image: url('https://rollacehotels.com/wp-content/uploads/2019/05/rollacehotel-rooms00110-800x800.jpg');
+}
+
+
+
+.ourservices-row{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.ourservices-col{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: auto;
+}
+
+.ourservices-h2{
+	color: #232323;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Oswail', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ourservices-col h1{
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 48px;
+	letter-spacing: 1px;
+	font-family: 'Oswail', sans-serif;
+}
+
+.ser-text{
+	margin-bottom: 50px;
+}
+
+.team-row{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+	width: 100%;
+}
+
+.team-col{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.team-h2{
+	text-transform: uppercase;
+	padding-top: 50px;
+	text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Oswail', sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.contact-form{
+	margin-left: 40px;
+}
+
+.msg{
+	width: 500px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 45px;
+}
+
+.msg-btn{
+	background-color: #bf0662;
+	width: 500px;
+	border-color: transparent;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.msg-btn:hover{
+	color: #3923ff;
+	cursor: pointer;
+}
+
+.contact-section{
+	display: flex;
+	padding-top: 10px;
+}
+
+.contact-header{
+	text-align: center;
+	text-transform: uppercase;
+	padding-top: 10px;
+	color: #bf0662;
+    font-family: 'Rochester', cursive;
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.fa-facebook,
+.fa-envelope,
+.fa-phone{
+	display: inline-block;
+	margin-left: 15px;
+	margin-right: 10px;
+	color: #bf0662;
+}
+
+.fa-envelope,
+.fa-phone,
+.fa-facebook{
+	margin-top: 20px;
+}
+
+.fa-map-marker-alt{
+	padding-top: 30px;
+}
+
+.header-span{
+	padding-top: 50px;
+}
+
+.myspan{
+	margin-left: 45px;
+}
+
+hr{ 
+	width: 23%;
+	margin-left: 390px;
+}
+
+.team-image1,
+.team-image2,
+.team-image3{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	-webkit-background-size: cover; 
+	background-size: cover;
+	background-position: center;
+	background-size: cover;
+	background-position: center;
+	width: 300px;
+	height: 380px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+.team-image1{
+	background-image: url('http://sageone.ng/wp-content/uploads/2017/12/find_a_accountant.jpg');
+}
+
+.team-image2{
+	background-image: url('https://devbankng.com/cms/uploads/board/Mr-Tony-.jpg');
+}
+
+.team-image3{
+	background-image: url('https://www.zenithbank.com/media/2741/zenith-management-team-oladoyin-olugbuyi.jpg?anchor=center&mode=crop&width=768&height=576&rnd=131945120600000000');
+}
+
+.team-text{
+	margin: 16px 0;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 550;
+	line-height: 20px;
+	letter-spacing: 1px;
+	font-family: 'Oswail', sans-serif;
+}
+
+.team-des{
+	font-style: italic;
+	color: rgb(191, 6, 98);
+	font-size: 18px;
+	font-weight: 550;
+	letter-spacing: 1px;
+	font-family: 'Oswail', sans-serif;
+	padding-bottom: 15px;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	color: #bf0662;
+	font-size: 20px;
+
+}
+
+.parallax-image{
+	background-image: url('https://www.ekohotels.com/img/all/accommodation/eko_signature/club_suite/xIMG_1957.jpg.pagespeed.ic.f6yQNd0D2a.webp');
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+  	width: 100%;
+  	height: 350px;
+  	margin-top: 50px;
+}
+
+.myparallax-image{
+	background-image: url('https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80');
+	background-size: cover;
+	background-position: center;
+	background-attachment:fixed;
+  	width: 100%;
+  	height: 350px;
+  	margin-top: 30px;
+  	margin-bottom: 10px;
+}
+
+.ourtoggle-col p{
+	height: 0;
+	padding: 0 15px;
+	overflow: hidden;
+	transition: height .5s ease-out, padding .5s ease-out;
+	background: #b3f7b1;
+	text-align: justify;
+}
+
+.ourtoggle-col h2{
+	font-size: 16px;
+}
+
+.div-one,
+.div-two,
+.div-three{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	border-bottom: 1px solid #aaa;
+	background: #2f6562;
+}
+
+a:active{
+	color: #fff;
+}
+
+:target + p{
+	padding: 10px 15px;
+	border-bottom: 1px solid #ccc;
+	background: #b3f7b1;
+}
+
+#div-one:target + p{
+	height: 100px;
+	background: #b3f7b1;
+}
+
+#div-two:target + p{
+	height: 200px;
+	background: #b3f7b1;
+}
+
+#div-three:target + p{
+	height: 300px;
+	background: #b3f7b1;
+}
+
+.accordion section p{
+	display: none;
+	text-align: center;
+}
+
+.accordion section a{
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+}
+
+.accordion section a:hover{
+	text-decoration: underline;
+}
+
+.accordion section:target p{
+	display: block;
+	background: #f0f0f0;
+	padding: 10px;
+}
+
+section{
+	background-color: #bf0662;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 250px;
+}
+
+.toggle-one{
+	border-bottom: 1px solid #fff;
+	padding: 10px;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 1px;
+	font-family: 'Oswail', sans-serif;
+}
+
+
+.music-image{
+	background-image: url('https://www.lifewire.com/thmb/E6oM3pseNLFzh3uQhtjyqovOucU=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-990122246-1361c873efae4114b9d340dbf7c35948.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	height: 350px;
+}
+
+.music-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	padding-top: 30px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+.music-col{
+	background-color: #019409;
+	width: 50%;
+	color: #fff;
+	text-align: center;
+	padding: 120px 30px 0px 20px;
+}
+
+.fa-cc-apple-pay{
+	font-size: 40px;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+
+.music-col p{
+	margin-bottom: 40px;
+	font-family: 'Oswail', sans-serif;
+	font-size: 15px;
+}
+.music-link{
+	color: #fff;
+	background-color: #91018c;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	transition: all 0.3s ease-in-out;
+
+}
+
+.music-link:hover{
+	background-color: #ff2e23;
+	color: #fff;
+	padding: 20px 30px;
+	cursor: pointer;
+}
+
+.bbslide-img{
+	width: 100%;
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 50px;
+}
+
+.test-row{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.test-col{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+}
+
+.quotetext{
+	color: #fff;
+	font-size: 25px;
+}
+.quotespan{
+	color: #fff;
+}
+
+.test-image1,
+.test-image2,
+.test-image3{
+	width: 200px;
+	height: 250px;
+	background-position: center;
+	background-size: cover;
+	margin: 0 auto 0 auto;
+	border: 2px solid #fff;
+	padding: 5px;
+	padding-top: 20px;
+	margin-bottom: 13px;
+	
+}
+
+.test-image1{
+	background-image: url('https://dailypost.ng/wp-content/uploads/2018/02/Fela-Durotoye.jpg');
+	padding-top: 20px;
+}
+
+.test-image2{
+	background-image: url('http://africa-me.com/wp-content/uploads/2016/11/MoAbudu.jpg');
+	padding-top: 20px;
+}
+
+.test-image3{
+	background-image: url('https://invoice.ng/blog/wp-content/uploads/2018/11/Abdul-Samad-Rabiu-Nigeria-Richest-Man.jpg');
+	padding-top: 20px;
+}
+
+.fa-quote-right{
+	margin-left: 100px;
+	color: #fff;
+	display: inline-block;
+}
+
+.fa-quote-left{
+	margin-right: 100px;
+	margin-bottom: 20px;
+	color: #fff;
+	display: inline-block;
+}
+
+.map-section{
+	margin-top: 50px;
+}
